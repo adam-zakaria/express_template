@@ -1,9 +1,13 @@
 const express = require('express')
+const path = require('path');
 const app = express()
-const port = 3000
+const port = 3002
+
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  //res.send('Hello World!')
+  res.sendFile(path.join(__dirname, 'index.html'));
 })
 
 app.post('/', (req, res) => {
