@@ -5,7 +5,7 @@
   },
   "name": "simple-log-test",
   "description": "Install npm with your system's package manager, then run ``` npm init npm i npx nodemon app.js ``` Navigate to localhost:3000 in your browser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "public/script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
