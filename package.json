@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "copy-container-react": "^1.0.7",
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
   },
